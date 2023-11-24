@@ -9,11 +9,9 @@
 header{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
-    margin: 0 25px;
+    padding: 20px 50px;
 
 /* debug */
-    padding: 20px;
     background-color: cadetblue;
 }
 
@@ -55,20 +53,44 @@ a{
 
 /* MAIN */
 
-.section-one{
-
-    /* debug */
+.section{
     display: flex;
     justify-content: center;
-    background-color: blue;
+    padding: 35px 50px;
     min-height: 500px;
     min-width: 100%;
+}
+
+.one{
+    background-color: blue;
+}
+
+.three{
+    background-color: lightgray;
 }
 
 .container-one{
     margin: 50px 35px;
     min-height: 70%;
-    min-width: 855px;
+    flex-basis: 700px;
+    
+    /* debug */
     background-color: palevioletred;
     border: 2px dashed black;
+}
+
+.container{
+    flex-basis: 600px;
+    min-width: 250px;
+    /* debug */
+
+    background-color: aqua;
+    border: 2px dashed black;
+}
+
+.title{
+    flex: 0 1 200px;
+
+    /* debug */
+    background-color: pink;
 }
