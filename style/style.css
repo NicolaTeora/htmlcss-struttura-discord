@@ -99,6 +99,12 @@ a{
     background-color: pink;
 }
 
+.dark{
+    justify-content: space-between;
+/* debug */
+    background-color: rgb(95, 94, 94);
+}
+
 .block{
     flex-grow: 1;
     height: 400px;
@@ -106,3 +112,5 @@ a{
 /* debug */
     background-color: cadetblue;
 }
+
+/* FOOTER */
