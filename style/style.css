@@ -4,30 +4,71 @@
     box-sizing: border-box;
 }
 
+/* HEADER */
+
 header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 25px;
 
 /* debug */
     padding: 20px;
     background-color: cadetblue;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
+div{
+    padding: 10px;
+}
+
+.section-logo{
+    flex: 0 1 200px;
     
     /* debug */
     border: 2px dashed black;
-    padding: 10px;
     background-color: goldenrod;
 
 }
 
-.section-nav{
+.section-link{
+    flex: 1 0 200px;
+    text-align: center;
     
     /* debug */
     border: 2px dashed black;
+    background-color: goldenrod;
 }
 
 a{
+    margin: 20px 20px;
     text-decoration: none;
+}
+
+.section-login{
+    flex: 0 1 200px;
+    text-align: right;
+    
+    /* debug */
+    border: 2px dashed black;
+    background-color: goldenrod;
+}
+
+/* MAIN */
+
+.section-one{
+
+    /* debug */
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    min-height: 500px;
+    min-width: 100%;
+}
+
+.container-one{
+    margin: 50px 35px;
+    min-height: 70%;
+    min-width: 855px;
+    background-color: palevioletred;
+    border: 2px dashed black;
 }
