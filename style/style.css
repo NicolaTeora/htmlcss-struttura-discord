@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+
+/* debug */
+    padding: 20px;
+    background-color: cadetblue;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+    /* debug */
+    border: 2px dashed black;
+    padding: 10px;
+    background-color: goldenrod;
+
+}
+
+.section-nav{
+    
+    /* debug */
+    border: 2px dashed black;
+}
+
+a{
+    text-decoration: none;
+}
