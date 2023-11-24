@@ -6,100 +6,44 @@
 
 /* HEADER */
 
-header{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 50px;
 
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    padding: 25px 50px;
 /* debug */
     background-color: cadetblue;
 }
 
 div{
+    border: 2px dashed black;
     padding: 10px;
 }
 
-.section-logo{
-    flex: 0 1 200px;
-    
-    /* debug */
-    border: 2px dashed black;
-    background-color: goldenrod;
-
-}
-
-.section-link{
-    flex: 1 0 200px;
-    text-align: center;
-    
-    /* debug */
-    border: 2px dashed black;
+#logo{
+    width: 20%;
+/* debug */
     background-color: goldenrod;
 }
 
 a{
-    margin: 20px 20px;
-    text-decoration: none;
+    margin: 5px;
 }
 
-.section-login{
-    flex: 0 1 200px;
-    text-align: right;
-    
-    /* debug */
-    border: 2px dashed black;
+#link{
+    text-align: center;
+    width: 60%;
+    flex-grow: 1;
+/* debug */
     background-color: goldenrod;
+
 }
 
-/* MAIN */
-
-.section{
-    display: flex;
-    justify-content: center;
-    padding: 35px 50px;
-    max-height: 1200px;
-    width: 100%;
-}
-
-.one{
-    background-color: blue;
-}
-
-.three{
-    background-color: lightgray;
-}
-
-.container-one{
-    margin: 50px 35px;
-    min-height: 350px;
-    flex-basis: 700px;
-    
-    /* debug */
-    background-color: palevioletred;
-    border: 2px dashed black;
-}
-
-.container{
-    flex-basis: 600px;
-    min-height: 400px;
-    /* debug */
-    background-color: aqua;
-    border: 2px dashed black;
-}
-
-.title{
-    flex: 0 1 200px;
-
-    /* debug */
-    background-color: pink;
-}
-
-.green-box{
-    flex-basis: 850px;
-    flex-grow: 0;
-    flex-shrink: 1;
-    max-height: 800px;
-
-    /* debug */
-    background-color: green;
+#login{
+    width: 20%;
+    text-align: right;
+/* debug */
+    background-color: goldenrod;
 }
