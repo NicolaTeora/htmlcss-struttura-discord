@@ -14,7 +14,6 @@ header{
 .container{
     display: flex;
     justify-content: center;
-    align-items: stretch;
     width: 100%;
     padding: 20px 110px;
 }
@@ -66,6 +65,7 @@ a{
 
 /* section two */
 .part-img{
+    flex-grow: 1;
     height: 400px;
     width: 70%;
 /* debug */
@@ -114,3 +114,27 @@ a{
 }
 
 /* FOOTER */
+footer{
+    border-top: 2px solid gray;
+    padding-top: 10px;
+    padding-bottom: 0;
+    width: 100%;
+    padding: 20px 110px;
+    background-color: rgb(95, 94, 94);
+}
+.foot-box{
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    justify-content: space-between;
+    background-color: lightskyblue;
+}
+
+#foot-logo{
+    background-color: orange;
+}
+
+#foot-botton{
+    background-color: orange;
+}
